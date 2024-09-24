@@ -1,9 +1,0 @@
----- Check if the table was successfully created in psql
-# connect to postgres container
-docker exec -it postgres psql -U admin iot_db
-
-# list all schemas
-\dn         
-
-# list all tables in iot schema
-\dt iot.*
